@@ -1,0 +1,25 @@
+{
+  "name": "srp",
+  "version": "1.0.0",
+  "description": "Secure Remote Password (SRP)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tape test/**/*.js"
+  },
+  "keywords": [],
+  "author": "kkapron <kkapron@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "create-hash": "^1.1.3",
+    "jsbn": "^1.1.0",
+    "randombytes": "^2.0.5"
+  },
+  "devDependencies": {
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kkapron/srp.git"
+  }
+}
